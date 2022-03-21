@@ -1,0 +1,13 @@
+//
+//  module.modulemap
+//  Logger
+//
+//  Created by David Klopp on 21/03/22.
+//  Copyright © 2022 David Klopp. All rights reserved.
+//
+
+framework module Logger {
+    header "logger.h"
+    
+    header "clogger.h"
+}
