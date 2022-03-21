@@ -2,7 +2,7 @@
 
 A simple swift-wrapper around [c-logger](https://github.com/yksz/c-logger). This is useful if you need a logging library, that works across C, Objectice-C and Swift. C-logger does implement the logging with macros, which is [not supported](https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_c_macros_in_swift) in Swift. Therefore helper functions around these macros are provided for Swift, such as `logInfo` or `logError`.
 
-**Step 1: Initialize the logger:**
+**Step 1: Initialize the logger in Swift:**
 
 ``` Swift
 // Flush every 5 seconds
