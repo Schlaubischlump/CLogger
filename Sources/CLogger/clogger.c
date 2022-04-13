@@ -212,7 +212,7 @@ static int hasFlag(int flags, int flag)
 void logger_flush()
 {
     if (s_logger == 0 || !s_initialized) {
-        assert(0 && "logger is not initialized");
+        //assert(0 && "logger is not initialized");
         return;
     }
 
@@ -352,7 +352,7 @@ void logger_log(LogLevel level, const char* fmt, ...)
     va_list carg, farg;
 
     if (s_logger == 0 || !s_initialized) {
-        assert(0 && "logger is not initialized");
+        //assert(0 && "logger is not initialized");
         return;
     }
 
